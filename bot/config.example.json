@@ -1,0 +1,18 @@
+{
+  "espn": {
+    "leagueId": "YOUR-ESPN-LEAGUE-ID",
+    "seasonYear": 2026,
+    "swid": "{PASTE-SWID-COOKIE-INCLUDING-BRACES}",
+    "espnS2": "PASTE-ESPN_S2-COOKIE-VALUE",
+    "teamId": null,
+    "teamName": "PASTE-YOUR-TEAM-NAME-HERE"
+  },
+  "telegram": {
+    "botToken": "PASTE-BOT-TOKEN-FROM-BOTFATHER",
+    "chatId": "PASTE-YOUR-CHAT-ID"
+  },
+  "settings": {
+    "tradeLopsidedGapPct": 35,
+    "lineupApplyTimeoutMinutesBeforeLock": 60
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "dry",
+  "paused": false,
+  "outgoingTradeOffersPerWeek": 2,
+  "verified": { "proposeTrade": false }
+}

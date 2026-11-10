@@ -1,0 +1,22 @@
+{
+  "name": "fantasybot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Autopilot assistant for an ESPN fantasy football league. Recommends lineup/waiver/trade moves via Telegram; human taps Approve/Reject.",
+  "type": "module",
+  "scripts": {
+    "bot:run": "tsx bot/run.ts",
+    "espn:test": "tsx bot/espn/client.ts",
+    "telegram:test": "tsx bot/telegram/client.ts",
+    "tool": "tsx bot/tools/cli.ts",
+    "state:pull": "tsx bot/tools/state-sync.ts pull",
+    "state:push": "tsx bot/tools/state-sync.ts push"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
